@@ -1,7 +1,7 @@
 # Double Democracy
 
 The Double Democracy rules define two kinds of votes, corrective and constructive, to be employed in different contexts.
-See Tom W. Bell's [What Can Corporations Teach Governments About Democratic Equality?](SSRN_ID2648523_code789050.pdf) for context and rationale.
+See Tom W. Bell's ["What Can Corporations Teach Governments About Democratic Equality?"](SSRN_ID2648523_code789050.pdf) for context and rationale.
 
 ## Corrective Vote (one-person/one-vote, 1P/1V)
 
