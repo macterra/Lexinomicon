@@ -1,7 +1,7 @@
 # Bounties
 
 1. Bounties provide a mechanism for funding tasks. 
-1. Tasks are tracked as [Lexinomicon issues](https://github.com/cryptotechguru/Lexinomicon/issues).
+1. Tasks are tracked as [Lexinomicon issues](https://github.com/ulex-opensource/Lexinomicon/issues).
 1. The bounty MUST get its own page which includes:
 * name (Bounty-#) where # is the issue #
 * associated issue link
@@ -33,8 +33,15 @@ The players involved SHOULD marshal the bounty through the following standard st
 1. The Treasurer creates a crowdfund page on the pay server and publishes the corresponding link on the wiki page.
 1. The Treasurer notifies subscribers that the bounty is open for funding.
 1. The Treasurer monitors the funding and periodically notifies subscribers of progress.
-1. If the bounty funding reaches 100% the Treasurer moves the issue to `In Progress` and hands off to the Keymaster.
-1. If the deadline is reached before the bounty is funded the Treasurer is responsible for sending refunds to participants, updating the wiki page and closing the issue.
+1. If the bounty funding reaches 100% the Treasurer is responsible for:
+    1. moving the issue to `In Progress`,
+    1. updating the wiki page,
+    1. recording who owns how many shares in the bounty by percentage funded,
+    1. handing off to the Keymaster.
+1. If the deadline is reached before the bounty is funded the Treasurer is responsible for:
+    1. sending refunds to participants, 
+    1. updating the wiki page,
+    1. closing the issue.
 
 ### In Progress
 
@@ -52,7 +59,9 @@ The players involved SHOULD marshal the bounty through the following standard st
 ### Complete
 
 1. The Keymaster creates a payment request in the pay server and sends a link directly to the Treasurer.
-1. The Treasurer verifies the request and sends the payment to the Keymaster.
+1. The Treasurer verifies the request then marshals a [1S/1V](../../Process/Voting/Double-Democracy) vote for bounty share-holders to release the funds.
+1. If the vote fails the Treasurer hands off to the Gatekeeper for another iteration of `In Review`.
+1. If the vote passes the Treasurer sends the payment to the Keymaster.
 1. When the payment is received the Keymaster closes the issue.
 
 ## Estimates
